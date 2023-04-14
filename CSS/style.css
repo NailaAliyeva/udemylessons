@@ -1,0 +1,14 @@
+section {
+    color: violet;
+    text-align: center;
+}
+h1{
+    color: violet;
+    background-color: sienna;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
