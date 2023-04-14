@@ -1,0 +1,9 @@
+ li{
+   background-color: yellowgreen;
+    text-decoration: line-through;
+    list-style-type: none;
+}
+h1 {
+    font: 16px;
+    text-align: center;
+}
