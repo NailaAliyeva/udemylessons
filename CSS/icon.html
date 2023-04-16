@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin: 0;}
+        .head_1{
+            color: white;
+            display: inline;
+            padding-left: 8px;
+            
+        }
+        .head1_1{
+            background-color: salmon;
+            height: 35px;
+            
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline; 
+            padding: 10px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            width: 500px;
+            border: 3px solid white;
+            border-radius: 8px;
+            margin-right: 10px;
+            
+        }
+        a:hover {color: black;
+            background-color: blue;}
+        nav{
+            display: inline-block;
+            text-align: right;
+            width: calc(100% - 120px);
+        }
+        .h2_m{
+            background-color: blue;
+            text-align: left;
+            padding-left: 5px;
+            padding-bottom: 250px;
+            width: 100%;
+            padding-top: 20px;
+        }
+        #main1{
+            text-align: center;
+            padding: 10px;
+        }
+        .other{
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .sect { 
+            display:inline-block;
+            width: 30%;
+            text-align: center; 
+            margin-top: 20px;  
+            margin-right: 12px;
+            margin: 20px 6px 0 6px;
+            background-color: white;    
+        }
+        p{
+            padding: 10px;
+        }
+            
+    </style>
+</head>
+<body>
+<header>
+    <div class="head1_1">
+        <h2 class="head_1">MovieApp</h2>
+        <nav>
+            <ul>
+                <li><a href="#">Filmler</a></li>
+                <li><a href="#">Diziler</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </div> 
+    <div class="h2_m"><h2>Welcome to MovieApp</h2></div>
+</header>
+    <section>
+        <main>
+            <div id="main1">
+                <h2>How it works?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, officia!</p>
+            </div>
+            <div class="other">
+                <div class="sect" >
+                    <h2>Register</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti cum perspiciatis et sapiente reprehenderit.</p>
+                </div>
+                <div class="sect">
+                    <h2>Choose a plan</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti cum perspiciatis et sapiente reprehenderit.</p>
+                </div>
+                <div class="sect">
+                    <h2>Enjoy Movies</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti cum perspiciatis et sapiente reprehenderit.</p>
+                </div>
+            </div>
+            
+        </main>
+    </section>
+</body>
+</html>
