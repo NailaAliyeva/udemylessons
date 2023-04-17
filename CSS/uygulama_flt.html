@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{box-sizing: border-box;}
+        header,footer{
+            background-color: #8267BE;
+            color: gold;
+            padding: 15px;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+            border: 2px solid purple;
+            display: block;
+            background-color: purple;
+            margin: 5px;
+            padding: 8px;
+            
+            
+        }
+        a:hover {background-color: grey;}
+        
+        .syh{width: 25%;
+           
+        }
+        ul{
+            padding: 0;
+            margin: 0;
+            list-style-type: none;
+        }
+        .kmp{
+            width: 75%;
+           
+        }
+       li{
+      
+       }
+        .clearfix::after{
+            content: "" ;
+            display: block;
+            clear: both;
+
+        }
+        #col{padding: 15px 15px 15px 0;
+            float: left;
+           
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Header</h2>
+    </header>
+    <main class="clearfix" >
+        <div class="syh" id="col">
+            <ul>
+                <li><a href="#">Html</a></li>
+                <li><a href="#">Css</a></li>
+                <li><a href="#">Javascript</a></li>
+            </ul>
+        </div>
+        <div class="kmp" id="col">
+            <h1>Komple Web Geliştirme Eğitimi</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quis possimus debitis eos distinctio magni veritatis, eveniet nemo! Tempore corporis facere sed laudantium esse perspiciatis in non aperiam magni suscipit.</p> <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus ad aut neque minima repellat doloremque facere animi nisi officia et, magni vel? Corporis pariatur rem iure dignissimos aspernatur? Ipsa, ad.</p>
+        </div>
+    </main>
+    <footer>
+        <h2>Footer</h2>
+    </footer>
+</body>
+</html>
