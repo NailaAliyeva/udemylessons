@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      * {
+        margin: 0;
+        box-sizing: border-box;
+      }
+      .head_1 {
+        color: white;
+        display: inline;
+        padding-left: 8px;
+      }
+      .head1_1 {
+        background-color: salmon;
+        height: 35px;
+      }
+      #ul1 {
+        list-style-type: none;
+      }
+      .lili {
+        display: inline;
+        padding: 10px;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        width: 500px;
+        border: 3px solid white;
+        border-radius: 8px;
+        margin-right: 10px;
+      }
+      a:hover {
+        color: black;
+        background-color: blue;
+      }
+      nav {
+        display: inline-block;
+        text-align: right;
+        width: calc(100% - 120px);
+      }
+      .h2_m {
+        background-color: blue;
+        text-align: left;
+        padding-left: 5px;
+        padding-bottom: 250px;
+        width: 100%;
+        padding-top: 20px;
+      }
+      #main1 {
+        text-align: center;
+        padding: 10px;
+      }
+      .other {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      .sect {
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        margin-top: 20px;
+        margin-right: 12px;
+        margin: 20px 6px 0 6px;
+        background-color: white;
+      }
+      p {
+        padding: 10px;
+      }
+      .left {
+        background: url("features.jpeg");
+        height: 350px;
+        background-position: top;
+        background-size: cover;
+        width: 120px;
+        display: inline-block;
+        padding-top: 20px;
+      }
+      .right {
+        display: inline-block;
+        vertical-align: top;
+        height: 350px;
+      }
+      #f1 {
+        width: calc(50% - 2px);
+        display: inline-block;
+        padding-top: 100px;
+        background-color: aquamarine;
+      }
+      #wv {
+        color: red;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: bold;
+        background-color: sandybrown;
+        border: 5px solid white;
+      }
+      #watch {
+        font-size: 30px;
+      }
+      .plans{
+        text-align: center;
+        padding: 15px;
+        box-sizing: border-box;
+     
+       
+        
+        
+      }
+      #plan{
+        display: inline-block;
+        width: 30%;
+        text-align: center;
+        margin-left: 40px;
+        background-color: darkkhaki;
+
+      } 
+    
+      h2,h3{
+        text-align: center;
+        padding: 10px;
+      }
+      button{
+        margin: 10px;
+    
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="head1_1">
+        <h2 class="head_1">MovieApp</h2>
+        <nav>
+          <ul id="ul1">
+            <li class="lili"><a href="#">Filmler</a></li>
+            <li class="lili"><a href="#">Diziler</a></li>
+            <li class="lili"><a href="#">Login</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="h2_m"><h2>Welcome to MovieApp</h2></div>
+    </header>
+    <section>
+      <main>
+        <div id="main1">
+          <h2>How it works?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe,
+            officia!
+          </p>
+        </div>
+        <div class="other">
+          <div class="sect">
+            <i class="fa-solid fa-heart fa-2x"></i>
+            <h2>Register</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              deleniti cum perspiciatis et sapiente reprehenderit.
+            </p>
+          </div>
+          <div class="sect">
+            <i class="fa-solid fa-star fa-2x"></i>
+            <h2>Choose a plan</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              deleniti cum perspiciatis et sapiente reprehenderit.
+            </p>
+          </div>
+          <div class="sect">
+            <i class="fa-solid fa-bomb fa-2x"></i>
+            <h2>Enjoy Movies</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
+              deleniti cum perspiciatis et sapiente reprehenderit.
+            </p>
+          </div>
+        </div>
+        <footer>
+          <div id="f1" class="left"></div>
+          <div id="f1" class="right">
+            <h2 id="watch">
+              Watch all Movies & TV Shows once they get released!
+            </h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Laboriosam optio velit ex assumenda temporibus. Qui, aspernatur.
+              Tempora nam accusamus voluptatibus reprehenderit debitis illum
+              quia porro maxime! Repellendus ullam repudiandae dolorem?
+            </p>
+            <a id="wv" href="#">View features</a>
+          </div>
+        </footer>
+      </main>
+    </section>
+    <section>
+      <div class="plans"><h2>Become a Premium Member</h2></div>
+      <div id="plan">
+        <h2>Free</h2>
+        <h3>0/month</h3>
+        <ul>
+          <li>HD available</li>
+          <li>Unlimited Movies and TV shows</li>
+          <li>Watch on your phone & tablet</li>
+          <li>Download and watch offline</li>
+          <li>Screens you can watch</li>
+          <li>First Month Free</li>
+        </ul>
+        <button>Choose Plan</button>
+      </div>
+      <div id="plan">
+        <h2>Basic</h2>
+        <h3>$9.99/month</h3>
+        <ul>
+          <li>HD available</li>
+          <li>Unlimited Movies and TV shows</li>
+          <li>Watch on your phone & tablet</li>
+          <li>Download and watch offline</li>
+          <li>Screens you can watch</li>
+          <li>First Month Free</li>
+        </ul>
+        <button>Choose Plan</button>
+    </div>
+        
+        <div id="plan">
+          <h2>Premium</h2>
+          <h3>$19.99/month</h3>
+          <ul>
+            <li>HD available</li>
+            <li>Unlimited Movies and TV shows</li>
+            <li>Watch on your phone & tablet</li>
+            <li>Download and watch offline</li>
+            <li>Screens you can watch</li>
+            <li>First Month Free</li>
+          </ul>
+          <button>Choose Plan</button>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
